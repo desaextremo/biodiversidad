@@ -1,0 +1,93 @@
+https://catalogo.biodiversidad.co/
+
+
+
+
+API: https://api.catalogo.biodiversidad.co/record/5762c4d3e1b68a831a82cb98/summary#full
+
+https://api.catalogo.biodiversidad.co/record/56bcf0f6f0106c67230e72e8/summary#/Abstract/getAbstract
+
+https://api.catalogo.biodiversidad.co/record_search/advanced_search?class=Aves&department=CO-BOY&size=40
+
+https://api.catalogo.biodiversidad.co/record_search/advanced_search?class=Aves&department=CO-BOY&size=10
+
+https://api.catalogo.biodiversidad.co/record/56bcf0f6f0106c67230e72e9/abstract/1
+
+https://api.catalogo.biodiversidad.co/complete-record/56bcf0f6f0106c67230e72e8
+
+
+Busqueda general
+https://api.catalogo.biodiversidad.co/record_search/advanced_search?class=Aves&department=CO-BOY&size=10
+
+Busqueda por registro
+
+Aqui obtengo el resumen
+https://api.catalogo.biodiversidad.co/record/56c08cfef0106c67230e72f9/abstract/1
+
+
+abstract
+
+Aqui obtengo Inf detallada
+https://api.catalogo.biodiversidad.co/complete-record/56c08cfef0106c67230e72f9
+
+nombres
+
+commonNames
+	commonNamesAtomized
+	
+fullDescription
+		fullDescriptionUnstructured
+		
+hierarchy	
+
+imageInfo
+
+habitatsApprovedInUse
+		habitats
+			habitatUnstructured
+			
+distributionApprovedInUse
+	distribution
+		distributionAtomized
+
+behaviorApprovedInUse
+	behavior
+		behaviorUnstructured
+		
+feedingApprovedInUse
+    feeding
+		feedingUnstructured
+
+reproductionApprovedInUse
+	reproduction
+		reproductionUnstructured
+		
+--------------------------------------
+Busqueda general de n registros de aves en Boyaca
+
+https://api.catalogo.biodiversidad.co/record_search/advanced_search?class=Aves&department=CO-BOY&size=1
+
+https://api.catalogo.biodiversidad.co/record_search/advanced_search?class=Aves&department=CO-BOY&size=5
+
+https://api.catalogo.biodiversidad.co/record_search/advanced_search?class=Aves&department=CO-BOY&size=20
+
+
+https://api.catalogo.biodiversidad.co/record_search/advanced_search?class=Mammalia&department=CO-CUN
+
+
+Resumen
+https://api.catalogo.biodiversidad.co/record/56c229d1f0106c67230e7323/abstract/1
+
+
+Aqui obtengo Inf detallada
+https://api.catalogo.biodiversidad.co/complete-record/56c229d1f0106c67230e7323
+
+-----------------------------------------------------------------------------------------------
+import requests
+https://api.catalogo.biodiversidad.co/record_search/advanced_search?class=Aves&department=CO-BOY&size=10
+
+
+
+
+
+
